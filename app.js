@@ -1,1 +1,1 @@
-console.log("hello fufuuu fjfkf  worlfffd!!!!!")
+console.log(Number("10-1"))
