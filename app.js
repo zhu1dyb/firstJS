@@ -1,1 +1,0 @@
-console.log("hello fufuuu fjfkf  worlfffd!!!!!")
