@@ -5,7 +5,6 @@ switch (language)  {
     break;
     case "en":
         console.log("Hello!");
-    
         break;
         case "ru":
             console.log("Приветик");
