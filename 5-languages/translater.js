@@ -10,3 +10,4 @@ switch (language)  {
             console.log("Приветик");
             break;
     }
+    
