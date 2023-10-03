@@ -5,7 +5,6 @@ function passwordMutation (password) {
     const cryptoPas = pushArray.join(""); // Из массива в строку
     return cryptoPas;
 }
-//passwordMutation(prompt("Введите пароль"))
 
 function transcript (cryptoPas, passwordTwo) {
     const massiv = cryptoPas.split(""); // В массив
