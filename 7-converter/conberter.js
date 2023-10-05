@@ -13,4 +13,4 @@ function converter (summa, currency = "rub", translatedCurrency) {
     return null;
   }
   }
-  console.log(converter(1000, "rub", "eu") +  " евро");  // при обмене евро меняем "долларов" на "евро"
+  console.log(converter(1000, "rub", "eu") +  " евро"); //при обмене евро меняем "долларов" на "евро"
