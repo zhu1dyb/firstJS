@@ -19,4 +19,4 @@ function luna(number) {
         return true
     } else return false
 }
-console.log(luna(cardNumber))
+console.log(luna(cardNumber)) 

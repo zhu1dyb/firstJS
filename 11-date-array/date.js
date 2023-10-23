@@ -35,4 +35,4 @@ function FilterDates_MapDates (array) {
          resDates.push(joinedArrFirstDate, joinedArrSecondDate)
     return resDates
 }
-console.log(FilterDates_MapDates(arrDates))
+console.log(FilterDates_MapDates(arrDates)) 

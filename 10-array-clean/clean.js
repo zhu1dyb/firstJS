@@ -15,4 +15,4 @@ function arrayCleaner (arr, choseToDelete) {
     return arr;
 }
 const result = arrayCleaner (numbers, choseToDelete);
-console.log(result);
+console.log(result); 
