@@ -1,9 +1,9 @@
-let numbers = [-4, 5, 7, 0, -11, 101];
+const numbers = [-4, 5, 7, 0, -11, 101];
 
 function choseToDelete (items) {
     return items <= 0
 }
-console.log(choseToDelete (numbers))
+console.log(choseToDelete(numbers))
 
 function arrayCleaner (arr, choseToDelete) {
     for (let i = 0; i < arr.length; i++) {
@@ -14,5 +14,5 @@ function arrayCleaner (arr, choseToDelete) {
     }
     return arr;
 }
-const result = arrayCleaner (numbers, choseToDelete);
+const result = arrayCleaner(numbers, choseToDelete);
 console.log(result); 
