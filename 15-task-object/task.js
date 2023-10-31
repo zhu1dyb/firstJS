@@ -8,7 +8,8 @@ const toDoList = {
     priority: 1
     },
     addTitle: function(theTitle) {
-            this.title2 = {
+            let nameTheTitle = prompt("Введите ключ title")
+            this[nameTheTitle] = {
             title: theTitle,
             id: Number(prompt("Введите id")),
             priority: Number(prompt("Введите приоритет"))
@@ -39,11 +40,11 @@ const toDoList = {
         const sortedList = sortedKeys.map(key => this[key]);
         return sortedList;
     }
-
-
 }
-console.log(toDoList.addTitle("Помыть окна"))
-console.log(toDoList.deleteTitleWithId(1))
-console.log(toDoList.refreshNameOfTitileById(0, "Cделать дз"))
-console.log(toDoList.sortByPriority())
+toDoList.addTitle("Помыть окна")
+toDoList.addTitle("Собрать шкаф")
+toDoList.addTitle("Заменить батарейку")
+toDoList.deleteTitleWithId(prompt("Укажите id по которому удалить"))
+toDoList.refreshNameOfTitileById(prompt("Введите id для обновления имени"), "Cделать дз")
+toDoList.sortByPr4iority()
 
