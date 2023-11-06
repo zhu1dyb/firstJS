@@ -22,16 +22,16 @@ const toDoList = {
         
     },
     deleteTitleWithId: function(idOfTitle) {
-       for(let i = 0; i < toDoList.tasks.length; i++){
-            if(toDoList.tasks[i].id == idOfTitle) 
-                toDoList.tasks.splice(i, 1)
+       for(let i = 0; i < this.tasks.length; i++){
+            if(this.tasks[i].id == idOfTitle) 
+                this.tasks.splice(i, 1)
             }
         return this
     },
     refreshNameOfTitileById: function(idOfTitleToRefresh, nameOfTitle) {
-        for(let i = 0; i < toDoList.tasks.length; i++) {
-            if(toDoList.tasks[i].id == idOfTitleToRefresh) {
-                toDoList.tasks[i].title = nameOfTitle
+        for(let i = 0; i < this.tasks.length; i++) {
+            if(this.tasks[i].id == idOfTitleToRefresh) {
+                this.tasks[i].title = nameOfTitle
             }
         }
         return this
