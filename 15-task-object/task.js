@@ -42,7 +42,7 @@ const toDoList = {
     }
 }
 toDoList.addTitle()
-console.log(toDoList.addTitle())
-console.log(toDoList.deleteTitleWithId(prompt("Укажите id по которому удалить")))
-console.log(toDoList.refreshNameOfTitileById(prompt("Введите id для обновления имени"), "Cделать дз"))
-console.log(toDoList.sortByPriority())
+console.log(toDoList.addTitle());
+console.log(toDoList.deleteTitleWithId(prompt("Укажите id по которому удалить")));
+console.log(toDoList.refreshNameOfTitileById(prompt("Введите id для обновления имени"), "Cделать дз"));
+console.log(toDoList.sortByPriority());
