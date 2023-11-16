@@ -2,17 +2,17 @@ const object = {
     search: "Вася",
     take: 10,
 }
-function stringToPaste (object) {
-    const keys = Object.keys(object)
-    return `// ${keys[0]}=${object[keys[0]]}&${keys[1]}=${object[keys[1]]}`
-}
-// console.log(stringToPaste(object))
-
-
 
 function stringToPaste2 (obj) {
-search = obj.search;
-take = obj.take;
-return `// search=${search}&take=${take}`
+const entr = Object.entries(obj);
+let result = ``;
+    console.log(entr)
+    for(let i = 0; i < entr.length; i++) {
+        result += `${entr[i][0]}=${entr[i][1]}&`
+    }
+    result = result.split("")
+    resDel = result.splice(-1)
+    result = result.join("")
+    return result
 }
 console.log(stringToPaste2(object))
