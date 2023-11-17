@@ -15,4 +15,21 @@ let result = ``;
     result = result.join("")
     return result
 }
-console.log(stringToPaste2(object))
+// console.log(stringToPaste2(object))
+
+
+
+const query = {
+    search: 'Вася',
+    take: 10,
+};
+
+function queryToString(query) {
+    const queriesArray = [];
+    for (const key in query) {
+        queriesArray.push(`${key}=${query[key]}`);
+    }
+    return  "//" + queriesArray.join('&');
+}
+
+console.log(queryToString(query));
