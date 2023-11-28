@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./calc.css" />
+</head>
+<body style="background-color: #1c1b21; text-align: center">
+    <p style="color:#f2f2f8">Result</p><div class="panel" id="out"></div>
+    <div class="buttons">
+    <button class="buttonMult" onclick="mult()">x</button>
+    <button class="buttonDiv" onclick="div()">/</button>
+    <button class="buttonPlus" onclick="plus()">+</button>
+    <button class="buttonMin" onclick="min()">-</button>
+    </div>
+    <div class="inputs">
+        <div>
+    <p style="color:#f2f2f8">Add number 1</p> 
+    <input class="input1" id="n1"/>
+    </div>
+    <div>
+    <p style="color:#ebebf1">Add number 2</p>
+    <input class="input2" id="n2"/>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
