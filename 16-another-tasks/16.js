@@ -58,15 +58,12 @@ const  newTasks = {
     }],
 }
 
-newTasks.addNewTasks = toDoList.addTitle
-newTasks.addNewTasks()
-console.log(newTasks.addNewTasks())
+toDoList.addTitle.call(newTasks); 
+toDoList.addTitle.call(newTasks);
 
-newTasks.newTasksDeleteTitleWithId = toDoList.deleteTitleWithId
-// console.log(newTasks.newTasksDeleteTitleWithId(1))
+toDoList.deleteTitleWithId.call(newTasks, 1);
 
-newTasks.NewTasksrefreshNameOfTitileById = toDoList.refreshNameOfTitileById
-// console.log(newTasks.NewTasksrefreshNameOfTitileById(2, "dsfsdf"))
+toDoList.refreshNameOfTitileById.apply(newTasks, [2, "Погулять"])
 
-newTasks.NewTasksSortByPriority = toDoList.sortByPriority
-console.log(newTasks.NewTasksSortByPriority())
+console.log(toDoList.sortByPriority.bind(newTasks)())
+

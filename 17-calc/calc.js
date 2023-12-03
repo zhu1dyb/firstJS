@@ -27,3 +27,8 @@ function div() {
     const result = num1 / num2;
     document.getElementById("out").innerHTML = result
 }
+
+document.querySelector(".buttonMult").addEventListener("click", () => mult())
+document.querySelector(".buttonDiv").addEventListener("click", () => div())
+document.querySelector(".buttonPlus").addEventListener("click", () => plus())
+document.querySelector(".buttonMin").addEventListener("click", () => min())
