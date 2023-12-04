@@ -1,0 +1,103 @@
+*{
+    font-family: "Agbalumo", sans-serif;
+}
+
+.panel {
+    font-size: 18px;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.buttonMult {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .2s;
+    text-align: center;
+    border-radius: 10px;
+    background: #6c38cc;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+}
+
+.buttonDiv {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .2s;
+    text-align: center;
+    border-radius: 10px;
+    background: #6c38cc;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+}
+
+.buttonPlus {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .2s;
+    text-align: center;
+    border-radius: 10px;
+    background: #6c38cc;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+}
+
+
+.buttonMin {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .2s;
+    text-align: center;
+    border-radius: 10px;
+    background: #6c38cc;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+}
+
+.input1 {
+    box-sizing: border-box;
+    padding: 5px 2px;
+    color: white;
+    border: 3px solid rgba(212, 212, 212, 0.05);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    height: 56px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    width: 64px;
+}
+
+.input2 {
+    box-sizing: border-box;
+    padding: 5px 2px;
+    color: white;
+    border: 3px solid rgba(212, 212, 212, 0.05);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    height: 56px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    width: 64px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.inputs {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
